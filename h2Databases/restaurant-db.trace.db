@@ -1,0 +1,63 @@
+2024-04-22 09:34:43.960212+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:34:44.435956+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id)) [42001-224]
+2024-04-22 09:34:45.989657+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:41:31.226548+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:41:31.291378+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id)) [42001-224]
+2024-04-22 09:41:31.786350+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:44:54.302248+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:44:54.337210+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_interest boolean, egg_interest boolean, peanut_interest boolean, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), zip_code varchar(255), primary key (id)) [42001-224]
+2024-04-22 09:51:48.243760+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy_interest,u1_0.display_name,u1_0.egg_interest,u1_0.peanut_interest,u1_0.state,u1_0.zip_code from [*]user u1_0 where u1_0.display_name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy_interest,u1_0.display_name,u1_0.egg_interest,u1_0.peanut_interest,u1_0.state,u1_0.zip_code from user u1_0 where u1_0.display_name=? [42001-224]
+2024-04-22 09:52:00.933343+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy_interest,u1_0.display_name,u1_0.egg_interest,u1_0.peanut_interest,u1_0.state,u1_0.zip_code from [*]user u1_0 where u1_0.display_name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy_interest,u1_0.display_name,u1_0.egg_interest,u1_0.peanut_interest,u1_0.state,u1_0.zip_code from user u1_0 where u1_0.display_name=? [42001-224]
+2024-04-22 09:53:53.272628+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:56:28.913266+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-04-22 09:56:29.307062+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy boolean, egg boolean, peanut boolean, id bigint not null, city varchar(255), name varchar(255), state varchar(255), zipcode varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy boolean, egg boolean, peanut boolean, id bigint not null, city varchar(255), name varchar(255), state varchar(255), zipcode varchar(255), primary key (id)) [42001-224]
+2024-04-22 09:56:46.252549+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 09:58:23.095274+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 09:59:44.741175+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 10:00:37.456743+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 10:00:46.113684+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 10:02:23.169965+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 10:04:53.248039+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from [*]user u1_0 where u1_0.name=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy,u1_0.name,u1_0.egg,u1_0.peanut,u1_0.state,u1_0.zipcode from user u1_0 where u1_0.name=? [42001-224]
+2024-04-22 10:06:41.171393+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
